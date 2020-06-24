@@ -1,0 +1,96 @@
+"C:\Program Files\Java\jdk1.8.0_171\bin\java.exe" "-javaagent:D:\IntelliJ\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=51095:D:\IntelliJ\IntelliJ IDEA 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;D:\TallerJava\Bench\bench\target\classes;C:\Users\joshc\.m2\repository\org\openjdk\jmh\jmh-core\1.23\jmh-core-1.23.jar;C:\Users\joshc\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\joshc\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\joshc\.m2\repository\ContandoPares\contandoPares\0.0.1-SNAPSHOT\contandoPares-0.0.1-SNAPSHOT.jar" com.jenkov.main
+# JMH version: 1.23
+# VM version: JDK 1.8.0_171, Java HotSpot(TM) 64-Bit Server VM, 25.171-b11
+# VM invoker: C:\Program Files\Java\jdk1.8.0_171\jre\bin\java.exe
+# VM options: -javaagent:D:\IntelliJ\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=51095:D:\IntelliJ\IntelliJ IDEA 2020.1.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.jenkov.MyBenchmark.testMethod
+
+# Run progress: 0,00% complete, ETA 00:08:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 14,781 s/op
+# Warmup Iteration   2: 19,495 s/op
+# Warmup Iteration   3: 2,529 s/op
+# Warmup Iteration   4: 2,508 s/op
+# Warmup Iteration   5: 2,531 s/op
+Iteration   1: 8,844 s/op
+Iteration   2: 15,594 s/op
+Iteration   3: 15,120 s/op
+Iteration   4: 15,695 s/op
+Iteration   5: 15,741 s/op
+
+# Run progress: 20,00% complete, ETA 00:10:16
+# Fork: 2 of 5
+# Warmup Iteration   1: 14,504 s/op
+# Warmup Iteration   2: 18,844 s/op
+# Warmup Iteration   3: 2,516 s/op
+# Warmup Iteration   4: 4,056 s/op
+# Warmup Iteration   5: 13,292 s/op
+Iteration   1: 13,479 s/op
+Iteration   2: 13,581 s/op
+Iteration   3: 13,417 s/op
+Iteration   4: 13,463 s/op
+Iteration   5: 13,066 s/op
+
+# Run progress: 40,00% complete, ETA 00:07:22
+# Fork: 3 of 5
+# Warmup Iteration   1: 13,709 s/op
+# Warmup Iteration   2: 19,075 s/op
+# Warmup Iteration   3: 9,374 s/op
+# Warmup Iteration   4: 13,646 s/op
+# Warmup Iteration   5: 13,394 s/op
+Iteration   1: 13,122 s/op
+Iteration   2: 12,996 s/op
+Iteration   3: 13,015 s/op
+Iteration   4: 12,958 s/op
+Iteration   5: 12,922 s/op
+
+# Run progress: 60,00% complete, ETA 00:04:53
+# Fork: 4 of 5
+# Warmup Iteration   1: 13,959 s/op
+# Warmup Iteration   2: 15,114 s/op
+# Warmup Iteration   3: 13,841 s/op
+# Warmup Iteration   4: 19,221 s/op
+# Warmup Iteration   5: 19,107 s/op
+Iteration   1: 19,076 s/op
+Iteration   2: 19,300 s/op
+Iteration   3: 19,260 s/op
+Iteration   4: 19,040 s/op
+Iteration   5: 19,085 s/op
+
+# Run progress: 80,00% complete, ETA 00:02:37
+# Fork: 5 of 5
+# Warmup Iteration   1: 13,676 s/op
+# Warmup Iteration   2: 15,184 s/op
+# Warmup Iteration   3: 15,366 s/op
+# Warmup Iteration   4: 14,857 s/op
+# Warmup Iteration   5: 15,656 s/op
+Iteration   1: 15,581 s/op
+Iteration   2: 15,473 s/op
+Iteration   3: 15,357 s/op
+Iteration   4: 15,496 s/op
+Iteration   5: 15,280 s/op
+
+
+Result "com.jenkov.MyBenchmark.testMethod":
+  15,038 ±(99.9%) 1,931 s/op [Average]
+  (min, avg, max) = (8,844, 15,038, 19,300), stdev = 2,577
+  CI (99.9%): [13,108, 16,969] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:13:04
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark               Mode  Cnt   Score   Error  Units
+MyBenchmark.testMethod  avgt   25  15,038 ± 1,931   s/op
+
+Process finished with exit code 0
