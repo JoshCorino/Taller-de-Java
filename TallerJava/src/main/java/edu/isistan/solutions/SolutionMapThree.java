@@ -1,20 +1,21 @@
 package edu.isistan.solutions;
 
+import edu.isistan.IProblemSolver;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import edu.isistan.IProblemSolver;
+import gnu.trove.map.hash.TIntIntHashMap;
+import gnu.trove.map.hash.TObjectIntHashMap;
 
 public class SolutionMapThree implements IProblemSolver{
 
     @Override
     public List<Pair> isSumIn(int[] data, int sum) {
-
         List<Pair> pairs = new LinkedList<>();
-        TIntIntHashMap frecuencyMap = new TIntIntHashMap();
-        HashMap<Pair, Integer> pairMap = new HashMap<>();
+        TIntIntHashMap frecuencyMap= new TIntIntHashMap();
+        TObjectIntHashMap pairMap = new TObjectIntHashMap();
         int n=data.length;
-
         for (int i=0; i<n; i++){
             if(!frecuencyMap.containsKey(data[i]))
                 frecuencyMap.put(data[i],0);
@@ -23,9 +24,8 @@ public class SolutionMapThree implements IProblemSolver{
 
         for (int i=0; i<n; i++)
         {
-            if(frecuencyMap.get(sum-data[i]) != null) {
-                if(pairMap.get(new Pair(sum - data[i],data[i])) == null){
-
+            if(frecuencyMap.get(sum-data[i]) != frecuencyMap.getNoEntryValue()) {
+                if(pairMap.get(new Pair(sum - data[i],data[i])) == pairMap.getNoEntryValue()){
                     Pair thisPair=new Pair(data[i],sum - data[i]);
                     pairMap.putIfAbsent(thisPair, 0);
                     pairMap.put(thisPair,pairMap.get(thisPair)+frecuencyMap.get(sum - data[i]));
@@ -35,9 +35,9 @@ public class SolutionMapThree implements IProblemSolver{
             }
         }
 
-        for (Pair p:pairMap.keySet()) {
+        for (Object p:pairMap.keySet()) {
             for(int j=0;j<pairMap.get(p);j++){
-                pairs.add(p);
+                pairs.add((Pair)p);
             }
         }
         return pairs;

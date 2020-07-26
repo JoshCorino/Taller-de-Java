@@ -15,6 +15,8 @@ public class Solutions {
 		IProblemSolver naive2 = new SolutionNaive2();
 		IProblemSolver map = new SolutionMap();
 		IProblemSolver map2 = new SolutionMapTwo();
+		IProblemSolver map3 = new SolutionMapThree();
+		IProblemSolver mapfixed = new SolutionMapFixed();
 
 		
 		for(int i=0;i<20;i++) {
@@ -28,12 +30,17 @@ public class Solutions {
 
 			long start2 = System.currentTimeMillis(); //acá no está haciendo el warm up para empezar con el benchmarking!!
 			System.out.println(" --map Pairs: "+map.isSumIn(problemGen.getData(), random).size());
-			start2 = System.currentTimeMillis() - start2;
-			System.out.println(start2);
+
 
 			long start3 = System.currentTimeMillis(); //acá no está haciendo el warm up para empezar con el benchmarking!!
 			System.out.println(" --map2 Pairs: "+map2.isSumIn(problemGen.getData(), random).size());
 			System.out.println("--------------------------");
+
+
+			long start4 = System.currentTimeMillis(); //acá no está haciendo el warm up para empezar con el benchmarking!!
+			System.out.println(" --mapfixed Pairs: "+mapfixed.isSumIn(problemGen.getData(), random).size());
+			System.out.println("--------------------------");
+
 		}
 	}
 }

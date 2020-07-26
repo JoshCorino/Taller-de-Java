@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TallerJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwoFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TallerJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TallerJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +40,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/Descargas/3.0.3/lib/trove-3.0.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -75,7 +76,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595789893467</updated>
-      <workItem from="1595789897071" duration="2701000" />
+      <workItem from="1595789897071" duration="3414000" />
+      <workItem from="1595793344010" duration="1291000" />
+      <workItem from="1595794650706" duration="2769000" />
+      <workItem from="1595797480076" duration="2033000" />
     </task>
     <servers />
   </component>
@@ -87,21 +91,37 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1595791105511" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1595792793827">
+    <state x="534" y="95" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1595796008660">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595792793827" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1595792793827">
+    <state x="534" y="95" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1595796008660" />
+    <state x="484" y="139" key="FileChooserDialogImpl" timestamp="1595796072880">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595792793827" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1595792793827">
+    <state x="484" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595796072880" />
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1595796578569">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595792793827" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1595792793827">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595796578569" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1595796578568">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595792793827" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595796578568" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1595796578567">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595796578567" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1595796578568">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595796578568" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1595797422650">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595797422650" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1595793346988">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595793346988" />
   </component>
 </project>
