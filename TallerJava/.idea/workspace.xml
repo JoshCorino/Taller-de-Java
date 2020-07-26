@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TallerJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TallerJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +69,7 @@
       <workItem from="1595789897071" duration="3414000" />
       <workItem from="1595793344010" duration="1291000" />
       <workItem from="1595794650706" duration="2769000" />
-      <workItem from="1595797480076" duration="2033000" />
+      <workItem from="1595797480076" duration="2090000" />
     </task>
     <servers />
   </component>
@@ -99,22 +89,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="484" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595796072880" />
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1595796578569">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1595799570761">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595796578569" />
-    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1595796578568">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1595799570761">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595796578568" />
-    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1595796578567">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1595799570761">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595796578567" />
-    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1595796578568">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1595799570761">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595796578568" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1595797422650">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

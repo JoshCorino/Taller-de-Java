@@ -39,14 +39,18 @@ import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
 
 public class MyBenchmark {
-
-    @Benchmark @BenchmarkMode(Mode.AverageTime)
-    public void testMethod() {
+	
+	@State(Scope.Thread)
+    public static class MyState {
         ProblemGen problemGen = new ProblemGen();
         IProblemSolver naive2 = new SolutionMapTwo();
         problemGen.genRandomProblem(1000000);
         int random=(int)(Math.random() * 2 * Integer.MAX_VALUE + Integer.MIN_VALUE/2);
-        naive2.isSumIn(problemGen.getData(), random);
+    }
+	
+    @Benchmark @BenchmarkMode(Mode.AverageTime)
+    public void testMethod(MyState state) {
+        state.naive2.isSumIn(state.problemGen.getData(), state.random);
     }
 
 }
