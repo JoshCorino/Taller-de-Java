@@ -34,9 +34,7 @@ package com.jenkov;
 import edu.isistan.IProblemSolver;
 import edu.isistan.ProblemGen;
 import edu.isistan.solutions.*;
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.BenchmarkMode;
-import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.*;
 
 public class MyBenchmark {
 	
@@ -44,13 +42,14 @@ public class MyBenchmark {
     public static class MyState {
         ProblemGen problemGen = new ProblemGen();
         IProblemSolver naive2 = new SolutionMapTwo();
-        problemGen.genRandomProblem(1000000);
+
         int random=(int)(Math.random() * 2 * Integer.MAX_VALUE + Integer.MIN_VALUE/2);
     }
 	
     @Benchmark @BenchmarkMode(Mode.AverageTime)
     public void testMethod(MyState state) {
-        state.naive2.isSumIn(state.problemGen.getData(), state.random);
+	    state.problemGen.genRandomProblem(1000000);
+	    state.naive2.isSumIn(state.problemGen.getData(), state.random);
     }
 
 }

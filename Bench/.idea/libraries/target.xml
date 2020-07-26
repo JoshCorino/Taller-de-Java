@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="target">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bench/target/bench-1.0-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bench/target/bench-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bench/target/benchmarks.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bench/target/original-benchmarks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
