@@ -33,7 +33,6 @@ public class Solutions {
 
 			long start3 = System.currentTimeMillis(); //acá no está haciendo el warm up para empezar con el benchmarking!!
 			System.out.println(" --map2 Pairs: "+map2.isSumIn(problemGen.getData(), random).size());
-			mvn
 			System.out.println("--------------------------");
 		}
 	}
