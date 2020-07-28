@@ -33,23 +33,50 @@ package com.jenkov;
 
 import edu.isistan.IProblemSolver;
 import edu.isistan.ProblemGen;
-import edu.isistan.solutions.*;
 import org.openjdk.jmh.annotations.*;
 
+import java.util.concurrent.TimeUnit;
+
 public class MyBenchmark {
-	
+
+
+
 	@State(Scope.Thread)
     public static class MyState {
-        ProblemGen problemGen = new ProblemGen();
-        IProblemSolver naive2 = new SolutionMapTwo();
 
-        int random=(int)(Math.random() * 2 * Integer.MAX_VALUE + Integer.MIN_VALUE/2);
+        ProblemGen problemGen;
+        IProblemSolver sol ;
+        int random;
+
+        public MyState(){
+            this.problemGen = new ProblemGen();
+
+            //Configuraciones de size
+            problemGen.genRandomProblem(5000000);
+            //problemGen.genRandomProblem(100000);
+            //problemGen.genRandomProblem(500000);
+            //problemGen.genRandomProblem(1000000);
+            //problemGen.genRandomProblem(200000);
+
+            //Algoritmos
+
+            //this.sol = new SolutionNaive();
+            //this.sol = new SolutionNaive2();
+            //this.sol = new SolutionSortSearch();
+            //this.sol = new SolutionMap();
+            //this.sol = new SolutionMapFixed();
+            //this.sol = new SolutionMapTwo();
+            //this.sol = new SolutionMapTwoFixed();
+
+            this.random=(int)(Math.random() * 2 * Integer.MAX_VALUE + Integer.MIN_VALUE/2);
+
+        }
+
     }
-	
-    @Benchmark @BenchmarkMode(Mode.AverageTime)
+
+    @Benchmark @BenchmarkMode(Mode.AverageTime) @Warmup(iterations = 1, time = 10, timeUnit = TimeUnit.SECONDS) @Measurement(iterations = 3, time = 10, timeUnit = TimeUnit.SECONDS) @Fork(value = 3, warmups = 1)
     public void testMethod(MyState state) {
-	    state.problemGen.genRandomProblem(1000000);
-	    state.naive2.isSumIn(state.problemGen.getData(), state.random);
-    }
+	    state.sol.isSumIn(state.problemGen.getData(), state.random);
+	}
 
 }

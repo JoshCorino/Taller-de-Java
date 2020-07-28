@@ -2,6 +2,9 @@ package edu.isistan.solutions;
 
 import edu.isistan.IProblemSolver;
 
+import java.lang.management.ManagementFactory;
+import java.lang.management.MemoryMXBean;
+import java.lang.management.MemoryUsage;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,6 +15,9 @@ public class SolutionMapThree implements IProblemSolver{
 
     @Override
     public List<Pair> isSumIn(int[] data, int sum) {
+        Runtime runtime = Runtime.getRuntime();
+        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
+
         List<Pair> pairs = new LinkedList<>();
         TIntIntHashMap frecuencyMap= new TIntIntHashMap();
         TObjectIntHashMap pairMap = new TObjectIntHashMap();
@@ -40,6 +46,8 @@ public class SolutionMapThree implements IProblemSolver{
                 pairs.add((Pair)p);
             }
         }
+        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
+
         return pairs;
     }
 }

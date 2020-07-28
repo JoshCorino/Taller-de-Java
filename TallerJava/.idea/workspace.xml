@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="" />
+    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bench/bench/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bench/bench/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/bench.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/bench.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/src/main/java/com/jenkov/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/src/main/java/com/jenkov/MyBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/META-INF/BenchmarkList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/generated/MyBenchmark_testMethod_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/generated/MyBenchmark_testMethod_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/generated-sources/annotations/com/jenkov/generated/MyBenchmark_testMethod_jmhTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/generated-sources/annotations/com/jenkov/generated/MyBenchmark_testMethod_jmhTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/MyBenchmark$MyState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/MyBenchmark$MyState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/MyBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/MyBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/out/production/bench/com/jenkov/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TallerJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TallerJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/META-INF/TallerJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapFixed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwoFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwoFixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,15 +52,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Descargas/3.0.3/lib/trove-3.0.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,11 +105,14 @@
       <workItem from="1595793344010" duration="1291000" />
       <workItem from="1595794650706" duration="2769000" />
       <workItem from="1595797480076" duration="2090000" />
+      <workItem from="1595875275468" duration="1018000" />
+      <workItem from="1595879093329" duration="29000" />
+      <workItem from="1595896265487" duration="5841000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595791105511">
@@ -85,33 +123,47 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="534" y="95" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1595796008660" />
-    <state x="484" y="139" key="FileChooserDialogImpl" timestamp="1595796072880">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="517" y="141" key="FileChooserDialogImpl" timestamp="1595876308636">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state x="484" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595796072880" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1595799570761">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="517" y="141" key="FileChooserDialogImpl/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876308636" />
+    <state width="1417" height="200" key="GridCell.Tab.0.bottom" timestamp="1595902948896">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1595799570761">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1417" height="200" key="GridCell.Tab.0.bottom/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1595902948896" />
+    <state width="1417" height="196" key="GridCell.Tab.0.bottom/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
+    <state width="1417" height="200" key="GridCell.Tab.0.center" timestamp="1595902948896">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1595799570761">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1417" height="200" key="GridCell.Tab.0.center/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1595902948896" />
+    <state width="1417" height="196" key="GridCell.Tab.0.center/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
+    <state width="1417" height="200" key="GridCell.Tab.0.left" timestamp="1595902948896">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1595799570761">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1417" height="200" key="GridCell.Tab.0.left/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1595902948896" />
+    <state width="1417" height="196" key="GridCell.Tab.0.left/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
+    <state width="1417" height="200" key="GridCell.Tab.0.right" timestamp="1595902948896">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1595797422650">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1417" height="200" key="GridCell.Tab.0.right/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1595902948896" />
+    <state width="1417" height="196" key="GridCell.Tab.0.right/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
+    <state x="197" y="0" key="SettingsEditor" timestamp="1595876309553">
+      <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595797422650" />
+    <state x="197" y="0" key="SettingsEditor/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876309553" />
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1595793346988">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595793346988" />
+    <state x="446" y="283" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595876191422">
+      <screen x="0" y="0" width="1459" height="781" />
+    </state>
+    <state x="446" y="283" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876191422" />
   </component>
 </project>

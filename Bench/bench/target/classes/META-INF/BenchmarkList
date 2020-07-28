@@ -1,1 +1,1 @@
-JMH S 22 com.jenkov.MyBenchmark S 51 com.jenkov.generated.MyBenchmark_testMethod_jmhTest S 10 testMethod S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 22 com.jenkov.MyBenchmark S 51 com.jenkov.generated.MyBenchmark_testMethod_jmhTest S 10 testMethod S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 I 1 1 E E E E E E E E 

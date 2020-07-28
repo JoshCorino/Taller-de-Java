@@ -9,7 +9,8 @@ public class SolutionMapTwo implements IProblemSolver{
 
     @Override
     public List<Pair> isSumIn(int[] data, int sum) {
-
+        Runtime runtime = Runtime.getRuntime();
+        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
         List<Pair> pairs = new ArrayList<>();
         HashMap<Integer, Integer> frecuencyMap = new HashMap<>();
         HashMap<Pair, Integer> pairMap = new HashMap<>();
@@ -43,6 +44,7 @@ public class SolutionMapTwo implements IProblemSolver{
                 pairs.add(new Pair(p.getI(),p.getJ()));
             }
         }
+        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
         return pairs;
 
     }
