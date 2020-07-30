@@ -15,8 +15,6 @@ public class SolutionMapThree implements IProblemSolver{
 
     @Override
     public List<Pair> isSumIn(int[] data, int sum) {
-        Runtime runtime = Runtime.getRuntime();
-        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
 
         List<Pair> pairs = new LinkedList<>();
         TIntIntHashMap frecuencyMap= new TIntIntHashMap();
@@ -31,12 +29,14 @@ public class SolutionMapThree implements IProblemSolver{
         for (int i=0; i<n; i++)
         {
             if(frecuencyMap.get(sum-data[i]) != frecuencyMap.getNoEntryValue()) {
-                if(pairMap.get(new Pair(sum - data[i],data[i])) == pairMap.getNoEntryValue()){
+                if((pairMap.get(new Pair(sum - data[i],data[i])) == pairMap.getNoEntryValue())||(data[i]+data[i]==sum)){
                     Pair thisPair=new Pair(data[i],sum - data[i]);
                     pairMap.putIfAbsent(thisPair, 0);
                     pairMap.put(thisPair,pairMap.get(thisPair)+frecuencyMap.get(sum - data[i]));
-                    if (sum - data[i] == data[i])
+                    if (sum - data[i] == data[i]){
                         pairMap.put(thisPair,pairMap.get(thisPair)-1);
+                        frecuencyMap.put((sum - data[i]),frecuencyMap.get(sum - data[i])-1);
+                    }
                 }
             }
         }
@@ -46,7 +46,6 @@ public class SolutionMapThree implements IProblemSolver{
                 pairs.add((Pair)p);
             }
         }
-        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
 
         return pairs;
     }

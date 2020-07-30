@@ -9,8 +9,6 @@ import edu.isistan.IProblemSolver;
 public class SolutionNaive2 implements IProblemSolver{
 
 	public List<Pair> isSumIn(int[] data, int sum) {
-		Runtime runtime = Runtime.getRuntime();
-		System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
 		List<Pair> pairs = new ArrayList<>();
 		
 		IntStream.range(0,  data.length)
@@ -18,7 +16,6 @@ public class SolutionNaive2 implements IProblemSolver{
 	        .filter(j -> i != j && data[i] + data[j] == sum)
 	        .forEach(j -> pairs.add(new Pair(data[i], data[j])))
 	    		);
-		System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
 		return pairs;
 	}
 

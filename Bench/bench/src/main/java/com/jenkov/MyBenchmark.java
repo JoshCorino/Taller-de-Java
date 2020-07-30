@@ -33,9 +33,8 @@ package com.jenkov;
 
 import edu.isistan.IProblemSolver;
 import edu.isistan.ProblemGen;
+import edu.isistan.solutions.SolutionSortSearchFixed;
 import org.openjdk.jmh.annotations.*;
-
-import java.util.concurrent.TimeUnit;
 
 public class MyBenchmark {
 
@@ -52,21 +51,25 @@ public class MyBenchmark {
             this.problemGen = new ProblemGen();
 
             //Configuraciones de size
-            problemGen.genRandomProblem(5000000);
+
             //problemGen.genRandomProblem(100000);
             //problemGen.genRandomProblem(500000);
             //problemGen.genRandomProblem(1000000);
-            //problemGen.genRandomProblem(200000);
+            //problemGen.genRandomProblem(5000000);
+            //problemGen.genRandomProblem(10000000);
+            problemGen.genRandomProblem(100000000);
 
             //Algoritmos
 
             //this.sol = new SolutionNaive();
             //this.sol = new SolutionNaive2();
             //this.sol = new SolutionSortSearch();
+            this.sol = new SolutionSortSearchFixed();
             //this.sol = new SolutionMap();
             //this.sol = new SolutionMapFixed();
             //this.sol = new SolutionMapTwo();
             //this.sol = new SolutionMapTwoFixed();
+            //this.sol = new SolutionMapThree();
 
             this.random=(int)(Math.random() * 2 * Integer.MAX_VALUE + Integer.MIN_VALUE/2);
 
@@ -74,7 +77,8 @@ public class MyBenchmark {
 
     }
 
-    @Benchmark @BenchmarkMode(Mode.AverageTime) @Warmup(iterations = 1, time = 10, timeUnit = TimeUnit.SECONDS) @Measurement(iterations = 3, time = 10, timeUnit = TimeUnit.SECONDS) @Fork(value = 3, warmups = 1)
+    @Benchmark @BenchmarkMode(Mode.AverageTime)
+
     public void testMethod(MyState state) {
 	    state.sol.isSumIn(state.problemGen.getData(), state.random);
 	}

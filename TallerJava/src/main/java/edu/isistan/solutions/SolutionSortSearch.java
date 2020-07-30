@@ -10,8 +10,6 @@ import edu.isistan.IProblemSolver;
 public class SolutionSortSearch implements IProblemSolver{
 
     public List<Pair> isSumIn(int[] data, int sum) {
-        Runtime runtime = Runtime.getRuntime();
-        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
         List<Pair> pairs = new ArrayList<>();
 
         Arrays.sort(data);
@@ -20,7 +18,6 @@ public class SolutionSortSearch implements IProblemSolver{
                 pairs.add(new Pair(data[i],sum-data[i]));
             }
         }
-        System.out.println("Memory used "+this.toString() +" "+ (runtime.totalMemory() - runtime.freeMemory())/ (1024*1024) + "MB");
         return pairs;
     }
 }
