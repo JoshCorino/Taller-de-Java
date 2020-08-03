@@ -14,7 +14,7 @@ public class SolutionSortSearchFixed implements IProblemSolver{
         Arrays.sort(data);
         for (int i=0;i<data.length;i++){
             int index=Arrays.binarySearch(data,sum-data[i]);
-            if(index>0 && index>i){
+            if(index>=0 && index>i){
                 Pair par=new Pair(data[i],sum-data[i]);
                 pairs.add(par);
                 int cursor= index-1;
@@ -28,16 +28,18 @@ public class SolutionSortSearchFixed implements IProblemSolver{
                     }
                 }
                 cursor=index+1;
-                while (data[cursor]==sum-data[i]) {
-                    pairs.add(par);
-                    if(cursor+1<data.length)
-                        cursor++;
-                    else
-                        break;
+                if(cursor<data.length) {
+                    while (data[cursor] == sum - data[i]) {
+                        pairs.add(par);
+                        if (cursor + 1 < data.length)
+                            cursor++;
+                        else
+                            break;
+                    }
                 }
             }
             else{
-                if(index>0) {
+                if(index>=0) {
                     int cursor = index + 1;
                     Pair par = new Pair(data[i], sum - data[i]);
                     while (data[cursor] == sum - data[i]) {
@@ -51,7 +53,6 @@ public class SolutionSortSearchFixed implements IProblemSolver{
                     }
                 }
             }
-
         }
         return pairs;
     }

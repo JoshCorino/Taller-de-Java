@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/MemoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearchFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bench/bench/src/main/java/com/jenkov/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/src/main/java/com/jenkov/MyBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark$MyState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark$MyState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bench/bench/target/classes/com/jenkov/MyBenchmark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapTwoFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionMapTwoFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionNaive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionNaive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionNaive2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionNaive2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionSortSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/SolutionSortSearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TallerJava/edu/isistan/solutions/Solutions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwoFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionMapTwoFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionNaive2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearchFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearchFixed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwoFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwoFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionNaive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionNaive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionNaive2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionNaive2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionSortSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionSortSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +89,7 @@
       <workItem from="1596126478542" duration="38000" />
       <workItem from="1596131838478" duration="2182000" />
       <workItem from="1596138606608" duration="1337000" />
+      <workItem from="1596470916619" duration="706000" />
     </task>
     <servers />
   </component>
@@ -139,29 +110,29 @@
     </state>
     <state x="484" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595796072880" />
     <state x="517" y="141" key="FileChooserDialogImpl/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876308636" />
-    <state width="1417" height="228" key="GridCell.Tab.0.bottom" timestamp="1596139954017">
+    <state width="1417" height="95" key="GridCell.Tab.0.bottom" timestamp="1596471322911">
       <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1417" height="228" key="GridCell.Tab.0.bottom/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596139954017" />
+    <state width="1417" height="95" key="GridCell.Tab.0.bottom/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596471322911" />
     <state width="1417" height="196" key="GridCell.Tab.0.bottom/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
-    <state width="1417" height="228" key="GridCell.Tab.0.center" timestamp="1596139954017">
+    <state width="1417" height="95" key="GridCell.Tab.0.center" timestamp="1596471322911">
       <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1417" height="228" key="GridCell.Tab.0.center/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596139954017" />
+    <state width="1417" height="95" key="GridCell.Tab.0.center/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596471322911" />
     <state width="1417" height="196" key="GridCell.Tab.0.center/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
-    <state width="1417" height="228" key="GridCell.Tab.0.left" timestamp="1596139954017">
+    <state width="1417" height="95" key="GridCell.Tab.0.left" timestamp="1596471322911">
       <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1417" height="228" key="GridCell.Tab.0.left/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596139954017" />
+    <state width="1417" height="95" key="GridCell.Tab.0.left/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596471322911" />
     <state width="1417" height="196" key="GridCell.Tab.0.left/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
-    <state width="1417" height="228" key="GridCell.Tab.0.right" timestamp="1596139954017">
+    <state width="1417" height="95" key="GridCell.Tab.0.right" timestamp="1596471322911">
       <screen x="0" y="0" width="1459" height="781" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595799570761" />
-    <state width="1417" height="228" key="GridCell.Tab.0.right/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596139954017" />
+    <state width="1417" height="95" key="GridCell.Tab.0.right/0.0.1459.781/1824.0.1093.574@0.0.1459.781" timestamp="1596471322911" />
     <state width="1417" height="196" key="GridCell.Tab.0.right/0.0.1459.781/1824.0.1216.644@0.0.1459.781" timestamp="1595876393875" />
     <state x="197" y="0" key="SettingsEditor" timestamp="1596134914168">
       <screen x="0" y="0" width="1459" height="781" />
