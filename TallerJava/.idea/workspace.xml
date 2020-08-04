@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearchFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/SolutionSortSearchFixed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/isistan/solutions/Solutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwoFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionMapTwoFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionSortSearchFixed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/SolutionSortSearchFixed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/isistan/solutions/Solutions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/contandoPares-0.0.1-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="4258c4a7-a00b-450a-ba84-6c7723332292" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +86,7 @@
       <workItem from="1596138606608" duration="1337000" />
       <workItem from="1596470916619" duration="1604000" />
       <workItem from="1596550139004" duration="1881000" />
+      <workItem from="1596553554765" duration="299000" />
     </task>
     <servers />
   </component>

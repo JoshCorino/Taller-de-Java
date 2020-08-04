@@ -79,8 +79,7 @@ public class MyBenchmark {
 
     }
 
-    //@Benchmark @BenchmarkMode(Mode.AverageTime)
-    @Benchmark @BenchmarkMode(Mode.AverageTime) @Warmup(iterations = 1, time = 10, timeUnit = TimeUnit.SECONDS) @Measurement(iterations = 3, time = 10, timeUnit = TimeUnit.SECONDS) @Fork(value = 3, warmups = 1)
+    @Benchmark @BenchmarkMode(Mode.AverageTime)
 
     public void testMethod(MyState state) {
 	    state.sol.isSumIn(state.problemGen.getData(), state.random);
