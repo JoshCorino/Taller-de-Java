@@ -35,22 +35,21 @@ public class Solutions {
 
 	}*/
 	public static void main(String[] args) {
-		int [] data={1,2,3,4,5,2,0, 0,-1,2};
+		int [] data= {1,2,3,4,5,2,0, 0,-1,2};
 		int sum = 4;
 
 		ArrayList<IProblemSolver> solutors = new ArrayList<IProblemSolver>();
-/*		solutors.add(new SolutionNaive());
+		solutors.add(new SolutionNaive());
 		solutors.add(new SolutionNaive2());
 		solutors.add(new SolutionMap());
 		solutors.add(new SolutionMapFixed());
 		solutors.add(new SolutionMapTwo());
 		solutors.add(new SolutionMapTwoFixed());
 		solutors.add(new SolutionMapThree());
-		solutors.add(new SolutionSortSearch());*/
 		solutors.add(new SolutionSortSearchFixed());
 
 		for (IProblemSolver i: solutors){
-			System.out.println("Solution "+i.toString()+" cantidad de pares encontrados "+i.isSumIn(data, 4).size());
+			System.out.println("Solution "+i.toString()+" cantidad de pares encontrados "+i.isSumIn(data, sum).size());
 		}
 	}
 }

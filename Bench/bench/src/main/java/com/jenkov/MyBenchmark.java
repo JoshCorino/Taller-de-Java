@@ -36,6 +36,8 @@ import edu.isistan.ProblemGen;
 import edu.isistan.solutions.SolutionSortSearchFixed;
 import org.openjdk.jmh.annotations.*;
 
+import java.util.concurrent.TimeUnit;
+
 public class MyBenchmark {
 
 
@@ -77,7 +79,8 @@ public class MyBenchmark {
 
     }
 
-    @Benchmark @BenchmarkMode(Mode.AverageTime)
+    //@Benchmark @BenchmarkMode(Mode.AverageTime)
+    @Benchmark @BenchmarkMode(Mode.AverageTime) @Warmup(iterations = 1, time = 10, timeUnit = TimeUnit.SECONDS) @Measurement(iterations = 3, time = 10, timeUnit = TimeUnit.SECONDS) @Fork(value = 3, warmups = 1)
 
     public void testMethod(MyState state) {
 	    state.sol.isSumIn(state.problemGen.getData(), state.random);
